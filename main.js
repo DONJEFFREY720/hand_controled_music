@@ -22,7 +22,7 @@ function preload(){
 }
 
 
-function modelLoaded(){
+function modeLoaded(){
      console.log("MODEL LOADED")
    }
    
