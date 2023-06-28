@@ -1,8 +1,8 @@
 function setup(){
-     canvas = createCanvas(300,300)
+     canvas = createCanvas(800,500)
      canvas.center()
      background("black")
-     video = createCapture(VIDEO);
+     video = createCa5pture(VIDEO);
      video.hide();
      posenet = ml5.poseNet(video,modeLoaded)
      posenet.on('pose',gotResults)
