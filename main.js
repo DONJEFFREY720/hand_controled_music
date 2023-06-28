@@ -1,5 +1,5 @@
 function setup(){
-     canvas = createCanvas(800,500)
+     canvas = createCanvas(700,500)
      canvas.center()
      background("black")
      video = createCapture(VIDEO);
@@ -27,7 +27,7 @@ function modeLoaded(){
    }
    
    function draw(){
-     image(video,0,0,300,300)
+     image(video,0,0,700,500)
      
    }
 
