@@ -68,8 +68,8 @@ function modeLoaded(){
       if(results.length > 0){
         console.log(results)
 
-        LW_score = results[0].pose.keypoints[9]
-       /* RW_score = results[0].pose.keypoints[]*/
+        LW_score = results[0].pose.keypoints[9].score
+       /* RW_score = results[0].pose.keypoints[10].score*/
 
         leftWristX = results[0].pose.leftWrist.x
         leftWristY = results[0].pose.leftWrist.y
